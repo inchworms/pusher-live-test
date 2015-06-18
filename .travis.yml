@@ -1,0 +1,8 @@
+language: ruby
+sudo: false
+script: sleep 2
+
+rvm: 
+ - 2.1
+ - 2.1
+#################
