@@ -1,6 +1,6 @@
 language: ruby
 sudo: false
-script: sleep 2
+script: sleep 20
 
 rvm: 
  - 2.1
