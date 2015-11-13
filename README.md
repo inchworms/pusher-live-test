@@ -2,4 +2,4 @@
 
 testing staging
 
-more testing staging.
+more testing staging
