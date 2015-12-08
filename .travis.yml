@@ -1,5 +1,7 @@
 language: ruby
 sudo: false
+cache: bundler
+
 script: sleep 20
 
 rvm: 
