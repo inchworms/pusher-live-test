@@ -1,4 +1,4 @@
-language: ruby
+language: RUBY
 sudo: false
 cache: bundler
 
