@@ -4,11 +4,11 @@ sudo: false
 script: 
  - sleep 3
  
-notifications:
- email:
-  recipients:
-   - carladrago@gmail.com
-  on_success: always
+# notifications:
+#  email:
+#   recipients:
+#    - carladrago@gmail.com
+#   on_success: always
  
  
 #################
