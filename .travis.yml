@@ -1,11 +1,7 @@
 language: RUBY
 sudo: false
-cache: bundler
 
 script: 
- - bundle exec rake build
+ - sleep 3
  
-rvm: 
- - 2.1
- - 2.1
 #################
