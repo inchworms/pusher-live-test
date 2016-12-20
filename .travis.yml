@@ -1,8 +1,8 @@
 language: RUBY
 sudo: false
 
-# script: 
-# - sleep 3
+script: 
+ - sleep 3
  
 # notifications:
 #  email:
