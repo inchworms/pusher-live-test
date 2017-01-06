@@ -209,8 +209,9 @@ env:
   - JOB=205
   - JOB=206
   - JOB=207
+  - JOB=208
 
 script:
- - sleep 3
+ - sleep 1
 
 ##################
