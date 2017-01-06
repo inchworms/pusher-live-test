@@ -212,7 +212,6 @@ env:
   - JOB=208
   - JOB=209
   - JOB=210
-  - JOB-211
 
 script:
  - sleep 1
