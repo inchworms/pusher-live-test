@@ -16,3 +16,4 @@ build on staging
 another build on staging
 test < 200 job matrix
 
+test log deletion
