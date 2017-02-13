@@ -6,7 +6,10 @@ script:
  
 notifications:
   webhooks:
-    - http://mockbin.org/bin/c5724ab6-e3dc-4b35-b839-b9b3bf2b21df
+   urls:
+     - http://mockbin.org/bin/c5724ab6-e3dc-4b35-b839-b9b3bf2b21df
+   on_canceled: always # default: always
+   on_errored: always # default: always
  
 # notifications:
 #  email:
