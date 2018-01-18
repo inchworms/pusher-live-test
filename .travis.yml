@@ -3,10 +3,9 @@ rvm:
   - 2.2
 
 jobs:
-  - include:
-    - rvm: ruby-head
-      gemfile: gemfiles/Gemfile.rails-3.2.x
-      env: ISOLATED=false
-    - rvm: 1.9.3
-      gemfile: gemfiles/Gemfile.rails-3.2.x
-      env: ISOLATED=false
+  - rvm: ruby-head
+    gemfile: gemfiles/Gemfile.rails-3.2.x
+    env: ISOLATED=false
+  - rvm: 1.9.3
+    gemfile: gemfiles/Gemfile.rails-3.2.x
+    env: ISOLATED=false
