@@ -2,10 +2,11 @@ rvm:
   - 2.0.0
   - 2.2
 
-matrix: 
-  - rvm: ruby-head
-    gemfile: gemfiles/Gemfile.rails-3.2.x
-    env: ISOLATED=false
-  - rvm: 1.9.3
-    gemfile: gemfiles/Gemfile.rails-3.2.x
-    env: ISOLATED=false
+matrix:
+  - include:
+    - rvm: ruby-head
+      gemfile: gemfiles/Gemfile.rails-3.2.x
+      env: ISOLATED=false
+    - rvm: 1.9.3
+      gemfile: gemfiles/Gemfile.rails-3.2.x
+      env: ISOLATED=false
