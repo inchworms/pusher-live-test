@@ -5,5 +5,5 @@ env:
   - FOO=2
 
 jobs:
-  include:
-    - env: FOO=3
+  exclude:
+    - env: FOO=2
