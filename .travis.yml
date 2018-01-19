@@ -1,12 +1,9 @@
-rvm:
-  - 2.0.0
-  - 2.2
+script: echo hi
+
+env:
+  - FOO=1
+  - FOO=2
 
 jobs:
-  - include:
-    - rvm: ruby-head
-      gemfile: gemfiles/Gemfile.rails-3.2.x
-      env: ISOLATED=false
-    - rvm: 1.9.3
-      gemfile: gemfiles/Gemfile.rails-3.2.x
-      env: ISOLATED=false
+  include:
+    - env: FOO=3
