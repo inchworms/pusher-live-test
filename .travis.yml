@@ -1,4 +1,4 @@
 language: elm
 elm_version: 1.2.3
 elm_test_version: 4.5.6
-node_js: 6
+node_js: "6"
