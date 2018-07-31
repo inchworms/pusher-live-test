@@ -18,5 +18,4 @@ another build on staging
 
 update
 
-resm
 
